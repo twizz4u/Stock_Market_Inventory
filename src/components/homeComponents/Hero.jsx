@@ -7,13 +7,6 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
           {/* Left Column - Content */}
           <div className="max-w-xl z-10 relative">
-            <div className="inline-flex items-center px-4 py-2 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-sm font-semibold tracking-wide mb-6 shadow-sm">
-              <span className="flex w-2.5 h-2.5 rounded-full bg-emerald-500 mr-2 relative">
-                <span className="absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75 animate-ping"></span>
-              </span>
-              Fresh & Organic Produce
-            </div>
-
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-[1.15] mb-6">
               Live stock market with{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-500">
